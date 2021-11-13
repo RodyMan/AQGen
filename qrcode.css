@@ -23,9 +23,7 @@ h1{
 	padding: 7rem 3rem;
 	border: 3px solid white;
 	border-radius: 2rem;
-	animation: animations 0.75s ease-in-out;
 }
-
 .qrcodediv{
 	position: relative;
 	top: 2rem
@@ -34,5 +32,11 @@ h1{
 input[type = "text"]{
 	position: relative;
 	padding: 0.30rem;
-
+	transition: border-left 0.25s ease-in-out;
+}
+input[type = "text"]:hover{
+	border-left: 5px solid red;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid black;
 }
