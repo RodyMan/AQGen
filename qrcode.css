@@ -11,6 +11,10 @@ h1{
 	position: relative;
 	top: -2rem;
 }
+h6{
+	position: relative;
+	bottom: 60px;
+}
 .qript{
 	position: absolute;
 	border-sizing: border-box;
