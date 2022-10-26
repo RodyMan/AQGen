@@ -1,7 +1,7 @@
 body{
 	margin:0rem;
 	padding:0rem;
-	background-color: black;
+	background-image:url(halloween.jpg);
 }
 img{
 	position: relative;
@@ -10,6 +10,7 @@ img{
 h1{
 	position: relative;
 	top: -2rem;
+	color: white;
 }
 h6{
 	position: relative;
@@ -17,15 +18,14 @@ h6{
 }
 .qript{
 	position: absolute;
-	border-sizing: border-box;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #D3D3D3;
+	background: rgb(204, 135, 44,0.5);;
 	height: 25rem;
 	width: 20rem;
 	padding: 7rem 3rem;
-	border: 3px solid white;
+	border:solid 3px rgb(255, 204, 69);
 	border-radius: 2rem;
 }
 .qrcodediv{
@@ -39,8 +39,8 @@ input[type = "text"]{
 	transition: border-left 0.25s ease-in-out;
 }
 input[type = "text"]:hover{
-	border-left: 5px solid red;
+	border-left: rgb(255, 204, 69);
 	border-right: none;
 	border-top: none;
-	border-bottom: 1px solid black;
+	border-bottom: rgb(255, 204, 69);
 }
