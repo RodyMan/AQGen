@@ -2,7 +2,9 @@ body{
 	margin:0rem;
 	padding:0rem;
 	background-image:url(halloween.jpg);
-	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+  	background-repeat: no-repeat;
 }
 img{
 	position: relative;
