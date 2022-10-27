@@ -8,11 +8,11 @@ body{
 }
 img{
 	position: relative;
- 	bottom: 50px;
+ 	bottom: 80px;
 }
 h1{
 	position: relative;
-	top: -2rem;
+	top: -5rem;
 	color: white;
 }
 h6{
@@ -39,6 +39,7 @@ h6{
 input[type = "text"]{
 	position: relative;
 	padding: 0.30rem;
+	top: -1.5rem;
 	transition: border-left 0.25s ease-in-out;
 }
 input[type = "text"]:hover{
