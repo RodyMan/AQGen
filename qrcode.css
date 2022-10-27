@@ -33,6 +33,9 @@ h6{
 }
 .qrcodediv{
 	position: relative;
+	top: 1rem;
+	transform: translate(0.1%, 1%);
+	
 }
 
 input[type = "text"]{
